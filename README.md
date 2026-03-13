@@ -1,6 +1,6 @@
 # Philips 3000 Series Fan Heater for Home Assistant
 
-![Philips 3000 Series Fan Heater icon](assets/icon.svg)
+![HomeVox logo](assets/homevox-logo.svg)
 
 Custom integration for the Philips 3000 Series Fan Heater over the local Air+ CoAP interface.
 
