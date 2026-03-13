@@ -1,0 +1,57 @@
+{
+  "entity": {
+    "climate": {
+      "heater": {
+        "name": "Verwarming",
+        "state": {
+          "off": "Uit",
+          "auto": "Automatisch",
+          "fan_only": "Ventilatie",
+          "heat": "Verwarmen"
+        },
+        "state_attributes": {
+          "preset_mode": {
+            "name": "Preset",
+            "state": {
+              "auto_plus": "Auto+",
+              "ventilation": "Ventilatie",
+              "low": "Laag",
+              "medium": "Middel",
+              "high": "Hoog"
+            }
+          },
+          "swing_mode": {
+            "name": "Oscillatie",
+            "state": {
+              "on": "Aan",
+              "off": "Uit"
+            }
+          },
+          "current_temperature": {
+            "name": "Huidige temperatuur"
+          }
+        }
+      }
+    }
+  },
+  "config": {
+    "step": {
+      "user": {
+        "title": "Philips 3000-serie ventilatorkachel",
+        "description": "Verbind je Philips 3000-serie ventilatorkachel via de lokale Air+ CoAP-interface.",
+        "data": {
+          "host": "Host",
+          "port": "Poort",
+          "name": "Naam"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "Deze Philips 3000-serie ventilatorkachel is al geconfigureerd."
+    },
+    "error": {
+      "cannot_connect": "Kan geen verbinding maken met de heater.",
+      "unknown": "Onverwachte fout."
+    }
+  }
+}

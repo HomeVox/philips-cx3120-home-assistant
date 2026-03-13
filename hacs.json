@@ -1,0 +1,6 @@
+{
+  "name": "Philips 3000 Series Fan Heater",
+  "content_in_root": true,
+  "domains": ["philips_cx3120"],
+  "render_readme": true
+}

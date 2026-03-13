@@ -1,0 +1,57 @@
+{
+  "entity": {
+    "climate": {
+      "heater": {
+        "name": "Fan Heater",
+        "state": {
+          "off": "Off",
+          "auto": "Auto",
+          "fan_only": "Ventilation",
+          "heat": "Heating"
+        },
+        "state_attributes": {
+          "preset_mode": {
+            "name": "Preset mode",
+            "state": {
+              "auto_plus": "Auto+",
+              "ventilation": "Ventilation",
+              "low": "Low",
+              "medium": "Medium",
+              "high": "High"
+            }
+          },
+          "swing_mode": {
+            "name": "Oscillation",
+            "state": {
+              "on": "On",
+              "off": "Off"
+            }
+          },
+          "current_temperature": {
+            "name": "Current temperature"
+          }
+        }
+      }
+    }
+  },
+  "config": {
+    "step": {
+      "user": {
+        "title": "Philips 3000 Series Fan Heater",
+        "description": "Connect to your Philips 3000 Series Fan Heater over the local Air+ CoAP interface.",
+        "data": {
+          "host": "Host",
+          "port": "Port",
+          "name": "Name"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "This Philips 3000 Series Fan Heater is already configured."
+    },
+    "error": {
+      "cannot_connect": "Unable to connect to the heater.",
+      "unknown": "Unexpected error."
+    }
+  }
+}

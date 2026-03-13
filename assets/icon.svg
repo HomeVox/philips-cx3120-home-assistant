@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Philips 3000 Series Fan Heater Home Assistant icon</title>
+  <desc id="desc">A house with a fan heater and warm airflow.</desc>
+  <defs>
+    <linearGradient id="bg" x1="24" y1="20" x2="228" y2="236" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#16324F"/>
+      <stop offset="1" stop-color="#0B1722"/>
+    </linearGradient>
+    <linearGradient id="heater" x1="92" y1="92" x2="164" y2="172" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FB923C"/>
+      <stop offset="1" stop-color="#EA580C"/>
+    </linearGradient>
+  </defs>
+  <rect x="12" y="12" width="232" height="232" rx="44" fill="url(#bg)"/>
+  <path d="M64 112 128 62l64 50" fill="none" stroke="#F8FAFC" stroke-linecap="round" stroke-linejoin="round" stroke-width="14"/>
+  <path d="M82 110v72c0 8.8 7.2 16 16 16h60c8.8 0 16-7.2 16-16v-72" fill="none" stroke="#F8FAFC" stroke-linecap="round" stroke-linejoin="round" stroke-width="14"/>
+  <rect x="98" y="108" width="60" height="74" rx="14" fill="url(#heater)"/>
+  <path d="M114 170c0-7 6-10 6-16s-6-9-6-15" fill="none" stroke="#FFF7ED" stroke-linecap="round" stroke-width="8"/>
+  <path d="M128 170c0-8 6-11 6-17s-6-10-6-16" fill="none" stroke="#FFF7ED" stroke-linecap="round" stroke-width="8"/>
+  <path d="M142 170c0-7 6-10 6-16s-6-9-6-15" fill="none" stroke="#FFF7ED" stroke-linecap="round" stroke-width="8"/>
+  <path d="M174 82c10 0 18 8 18 18" fill="none" stroke="#67E8F9" stroke-linecap="round" stroke-width="8"/>
+  <path d="M174 68c17 0 32 14 32 32" fill="none" stroke="#22D3EE" stroke-linecap="round" stroke-width="8"/>
+  <circle cx="174" cy="100" r="6" fill="#A5F3FC"/>
+</svg>
